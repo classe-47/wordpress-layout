@@ -35,9 +35,17 @@ nav {
     line-height: 40px;
 }
 
+/* menù creato con inline-block */
+/* 
 nav li {
     list-style: none;
     display: inline-block;
+} */
+
+/* menù con float */
+nav li {
+    list-style: none;
+    float: left;
 }
 
 /* main */
