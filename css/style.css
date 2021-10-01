@@ -1,3 +1,4 @@
+/* commons */
 * {
     margin: 0;
     padding: 0;
@@ -7,4 +8,45 @@
 .container {
     width: 80%;
     margin: 0 auto;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+} 
+
+/* header */
+.header-top {
+    height: 100px;
+}
+
+
+
+
+/* main */
+
+
+/* footer */
+
+footer {
+    height: 90px;
+}
+
+
+/* ***** debug **** */
+
+.debug main {
+    height: 600px;
+    background-color: grey;
+}
+.debug footer {
+    background-color: violet;
+}
+
+.debug .header-top {
+    background-color: purple;
+}
+
+.debug .jumbo {
+    height: 500px;
+    background-color: yellow;
 }
