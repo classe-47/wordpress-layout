@@ -14,29 +14,50 @@
     margin-bottom: 20px;
 } 
 
+
+.left {
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /* header */
 .header-top {
     height: 100px;
 }
 
 
-
-
 /* main */
+main {
+    padding-bottom: 20px;
+}
+.col-sn,
+.col-dx {
+    width: 25%;
+}
+
+.main-content {
+    width: 46%;
+    margin: 0 2%;
+}
 
 
 /* footer */
 
 footer {
     height: 90px;
+    margin-top: 10px;
 }
 
 
 /* ***** debug **** */
 
 .debug main {
-    height: 600px;
-    background-color: grey;
+    background-color: blue;
 }
 .debug footer {
     background-color: violet;
@@ -47,6 +68,18 @@ footer {
 }
 
 .debug .jumbo {
-    height: 500px;
+    height: 450px;
     background-color: yellow;
+}
+
+.debug .slogan {
+    height: 70px;
+    background-color: lightblue;
+}
+
+.debug .col-sn, 
+.debug .main-content, 
+.debug .col-dx {
+    height: 450px;
+    background-color: lightblue;
 }
