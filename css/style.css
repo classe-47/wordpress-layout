@@ -119,6 +119,15 @@ main {
 footer {
     height: 90px;
     margin-top: 10px;
+    text-align: center;
+}
+
+.text-footer {
+    font-size: 20px;
+}
+
+#love {
+    color: red;
 }
 
 
@@ -127,7 +136,6 @@ footer {
 .debug main {
     background-color: rgb(224, 221, 221);
 }
-
 
 /* .debug #logo {
     background-color: lightgrey;
@@ -154,6 +162,6 @@ footer {
     background-color: lightblue;
 } */
 
-.debug footer {
+/* .debug footer {
     background-color: violet;
-}
+} */
