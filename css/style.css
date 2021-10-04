@@ -103,6 +103,17 @@ main {
     margin: 0 2%;
 }
 
+.slogan {
+    padding-top: 20px;
+}
+
+.col-img img {
+    width: 100%;
+    object-fit: cover;  
+    height: 200px;
+    border-radius: 10px;
+}
+
 /* footer */
 
 footer {
@@ -114,7 +125,7 @@ footer {
 /* ***** debug **** */
 
 .debug main {
-    background-color: blue;
+    background-color: rgb(224, 221, 221);
 }
 
 
@@ -131,17 +142,17 @@ footer {
     background-color: yellow;
 } */
 
-.debug .slogan {
+/* .debug .slogan {
     height: 70px;
     background-color: lightblue;
-}
+} */
 
-.debug .col-sn, 
+/* .debug .col-sn, 
 .debug .main-content, 
 .debug .col-dx {
     height: 450px;
     background-color: lightblue;
-}
+} */
 
 .debug footer {
     background-color: violet;
