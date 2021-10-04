@@ -65,6 +65,29 @@ nav li a {
     float: left;
 } */
 
+.jumbo {
+    /* background-image: url('../img/banner.jpg'); */
+    background: rgba(0,0,0,0.4) url('../img/banner.jpg');
+    background-blend-mode: multiply;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.jumbo-text {
+    width: 70%;
+    padding-top: 300px;
+    padding-left: 50px;
+    padding-bottom: 40px;
+    color: white;
+}
+
+.jumbo-text h2 {
+    font-size: 36px;
+}
+
+.jumbo-text p {
+    font-size: 18px;
+}
 /* main */
 main {
     padding-bottom: 20px;
@@ -102,11 +125,11 @@ footer {
 /* .debug nav { 
     background-color: tomato;
 } */
-
+/* 
 .debug .jumbo {
-    height: 450px;
+    height: 500px;
     background-color: yellow;
-}
+} */
 
 .debug .slogan {
     height: 70px;
