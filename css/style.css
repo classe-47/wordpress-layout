@@ -65,20 +65,51 @@ nav li a {
     float: left;
 } */
 
-.jumbo {
-    /* background-image: url('../img/banner.jpg'); */
+/* possibile soluzione senza position */
+/* .jumbo {
     background: rgba(0,0,0,0.4) url('../img/banner.jpg');
     background-blend-mode: multiply;
     background-position: center;
     border-radius: 10px;
+} */
+
+/* con position */
+.jumbo {
+    height: 500px;
+    background-image: url('../img/banner.jpg');
+    background-position: center;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
 }
 
-.jumbo-text {
+.overlay {
+    position: absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 10px;
+}
+
+
+/* senza position */
+/* .jumbo-text {
     width: 70%;
     padding-top: 300px;
     padding-left: 50px;
     padding-bottom: 40px;
     color: white;
+} */
+
+/* con il position */
+.jumbo-text {
+    width: 60%;
+    color: white;
+    position: absolute;
+    left: 40px;
+    bottom: 30px;
 }
 
 .jumbo-text h2 {
@@ -106,7 +137,9 @@ main {
 .slogan {
     padding-top: 20px;
 }
-
+.col-img{
+    position: relative;
+}
 .col-img img {
     width: 100%;
     object-fit: cover;  
@@ -133,9 +166,9 @@ footer {
 
 /* ***** debug **** */
 
-.debug main {
+/* .debug main {
     background-color: rgb(224, 221, 221);
-}
+} */
 
 /* .debug #logo {
     background-color: lightgrey;
