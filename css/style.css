@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .container {
     width: 80%;
     margin: 0 auto;
@@ -39,20 +43,27 @@
 nav {
     height: 40px;
     line-height: 40px;
+    margin-top: 20px;
 }
 
 /* menù creato con inline-block */
-/* 
 nav li {
     list-style: none;
     display: inline-block;
-} */
+    margin-right: 10px;
+}
+
+nav li a {
+    color: grey;
+    text-decoration: none;
+    text-transform: uppercase;
+}
 
 /* menù con float */
-nav li {
+/* nav li {
     list-style: none;
     float: left;
-}
+} */
 
 /* main */
 main {
@@ -88,9 +99,9 @@ footer {
     background-color: lightgrey;
 } */
 
-.debug nav { 
+/* .debug nav { 
     background-color: tomato;
-}
+} */
 
 .debug .jumbo {
     height: 450px;
