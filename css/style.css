@@ -27,7 +27,13 @@
 
 /* header */
 #logo {
-    height: 60px;
+    height: 70px;
+}
+
+#logo img {
+    height: 70px;
+    padding-right: 20px;
+    border-right: 1px solid lightgrey;
 }
 
 nav {
@@ -78,9 +84,9 @@ footer {
 }
 
 
-.debug #logo {
+/* .debug #logo {
     background-color: lightgrey;
-}
+} */
 
 .debug nav { 
     background-color: tomato;
